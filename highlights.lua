@@ -6,15 +6,15 @@ local M = {}
 
 --@type Base46HLGroupsList
 M.override = {
-  CursorLine = {
-    bg = "one_bg",
-  },
+    CursorLine = {
+        bg = "one_bg",
+    },
   Comment = {
     italic = true,
   },
 }
 
---@type HLTable
+---@type HLTable
 M.add = {
   NvimTreeOpenedFolderName = { fg = "green", bold = true },
 }

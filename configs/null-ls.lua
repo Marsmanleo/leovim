@@ -53,6 +53,7 @@ local sources = {
       "tailwindcss",
     },
   }, -- so prettierd works only on these filetypes
+  
   -- Lua
   b.formatting.stylua,
 

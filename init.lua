@@ -38,9 +38,14 @@ api.nvim_create_autocmd({ "BufAdd", "BufEnter", "tabnew" }, {
 
 -------------------------------------- options -----------------------------------------
 
--- Numbers
 opt.relativenumber = true
+opt.tabstop = 4
+opt.shiftwidth = 4
+opt.shiftround = false
+opt.expandtab = true
 opt.smartindent = true
+opt.cursorline = true
+opt.autoindent = true
 
 -------------------------------------- plugins-----------------------------------------
 
